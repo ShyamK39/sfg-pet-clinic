@@ -5,6 +5,8 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+//delete all the methods and generate implementation inside Owner or the other classes to generate the correct code
+//generate implementation inside Owner without deleting methods to reproduce bug
 public abstract class AbstractMapService<T, ID> {
 
     protected Map<ID, T> map = new HashMap<>();
